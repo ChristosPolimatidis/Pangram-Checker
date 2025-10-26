@@ -40,13 +40,18 @@ A fast C program that reads **`list_of_1000_strings.json`** (array of strings), 
 ├── list_of_1000_strings.json  # Input dataset (array of strings)
 └── Makefile                # Build and clean targets
 ```
-Relevant implementation is in these files: fileciteturn0file0 fileciteturn0file1 fileciteturn0file2 fileciteturn0file3
 
 ## Requirements
 
 - **C compiler** with C standard library (tested with `gcc`/`clang`).
 - **cJSON** library and headers available to the compiler/linker.
   - If installed system-wide (e.g., via package manager), linking with `-lcjson` should work.
+
+## Challenge
+
+This implementation was created for the Stack Overflow coding challenge:
+
+[Complete Code Challenge 7: Pangram Checker](https://stackoverflow.com/beta/challenges/79767716/complete-code-challenge-7-pangram-checker)
 
 ## Build
 
