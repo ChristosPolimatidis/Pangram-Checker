@@ -12,6 +12,7 @@ A fast C program that reads **`list_of_1000_strings.json`** (array of strings), 
 - [Features](#features)
 - [Repo Structure](#repo-structure)
 - [Requirements](#requirements)
+- [Challenge](#challenge)
 - [Build](#build)
 - [Run](#run)
 - [Expected Output](#expected-output)
